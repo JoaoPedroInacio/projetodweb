@@ -9,37 +9,12 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: url('https://media.istockphoto.com/id/506472311/pt/foto/nascer-do-sol.jpg?s=612x612&w=0&k=20&c=tFunP1O6FH9TRd8PrskCNHGO3Ugs-Xh3khRnedZr8-U=');
+  background: url('https://media.istockphoto.com/id/506472311/pt/foto/nascer-do-sol.jpg?s=612x612&w=0&k=20&c=tFunP1O6FH9TRd8PrskCNHGO3Ugs-Xh3khRnedZr8-U='); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
 
   font-family: 'Arial', sans-serif;
-}
-
-/* Estilo para o header */
-header {
-  background-color: #87CEFA; /* Azul clarinho */
-  color: white; /* Letras brancas */
-  padding: 20px 0;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Pequena sombra para destaque */
-}
-
-header a {
-  color: white; /* Link branco */
-  text-decoration: none; /* Sem sublinhado */
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-header a:hover {
-  text-decoration: underline; /* Sublinhado ao passar o mouse */
-}
-
-header h1 {
-  font-size: 2em;
-  margin: 0;
 }
 
 /* Estilo para o main */
@@ -71,7 +46,6 @@ main {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
   max-width: 300px;
   width: 100%;
 }
@@ -83,8 +57,7 @@ main {
 
 /* Barra de pesquisa */
 .search-container {
-  text-align: left;
-  margin: 20px 20px;
+  margin: 20px;
   padding: 20px;
   border-radius: 20px;
   border: 1px solid #ccc;
@@ -103,19 +76,6 @@ main {
   outline: none;
 }
 
-.search-container input::placeholder {
-  color: #888;
-  opacity: 0.8;
-}
-
-/* Background amarelo-escuro */
-.dark-yellow-background {
-  background-color: #FFD700; /* Amarelo escuro */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
 /* Tipografia */
 h1, h2, p {
   padding-left: 20px;
@@ -125,61 +85,30 @@ h1, h2, p {
   margin-left: 20px;
 }
 
+/* Estilo para o carrinho */
 .carrinho {
   display: flex;
-  flex-direction: column; /* Dispor os itens em coluna */
-  align-items: center; /* Centralizar horizontalmente */
-  text-align: center; /* Alinhar o texto ao centro */
-  margin: 20px auto; /* Centralizar o carrinho horizontalmente */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 20px auto;
   padding: 20px;
 }
 
 .carrinho input,
 .carrinho button {
-  margin: 10px 0; /* Espaçamento entre os elementos */
-}
-
-.carrinho label {
-  margin-bottom: 10px; /* Espaço entre o checkbox e o texto */
+  margin: 10px 0;
 }
 
 .carrinho-total {
   font-weight: bold;
-  margin-bottom: 20px; /* Espaço entre o total e os outros elementos */
+  margin-bottom: 20px;
 }
 
 .carrinho button {
-  background-color: #87CEFA; /* Azul clarinho */
-  color: white;
-  border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.carrinho button:hover {
-  background-color: #4682B4; /* Azul mais escuro ao passar o mouse */
-}
-
-/* Estilo para o footer */
-footer {
-  background-color: #87CEFA; /* Azul clarinho */
-  color: white; /* Letras brancas */
-  padding: 10px 0;
-  text-align: center;
-  font-size: 0.9em;
-  border-top: 2px solid #FFF; /* Linha branca para separar o footer */
-}
-
-footer a {
-  color: white; /* Links brancos no footer */
-  text-decoration: none;
-  font-weight: bold;
-}
-
-footer a:hover {
-  text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
 
 /* Responsividade */
@@ -193,6 +122,6 @@ footer a:hover {
   }
 
   h1 {
-    font-size: 1.5em; /* Reduzir tamanho do título */
+    font-size: 1.5em;
   }
 }
