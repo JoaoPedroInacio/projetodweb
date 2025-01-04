@@ -1,20 +1,74 @@
 [
-    {
-      "title": "HTML",
-      "image": "/images/HTML_icon_resized_250px.webp",
-      "description": "A linguagem de marcação para construção de páginas web.",
-      "rating": 5
-    },
-    {
-      "title": "CSS",
-      "image": "/images/CSS_icon_resized_250px.webp",
-      "description": "Usada para estilizar páginas web.",
-      "rating": 4
-    },
-    {
-      "title": "JavaScript",
-      "image": "/images/JavaScript_icon_resized_250px.webp",
-      "description": "A linguagem de programação para a web.",
-      "rating": 5
-    }
-  ]
+  {
+    "title": "HTML",
+    "image": "/images/HTML_icon_resized_250px.webp",
+    "description": "A linguagem de marcação para construção de páginas web.",
+    "rating": 5
+  },
+  {
+    "title": "CSS",
+    "image": "/images/CSS_icon_resized_250px.webp",
+    "description": "Usada para estilizar páginas web.",
+    "rating": 4
+  },
+  {
+    "title": "JavaScript",
+    "image": "/images/JavaScript_icon_resized_250px.webp",
+    "description": "A linguagem de programação para a web.",
+    "rating": 5
+  },
+  {
+    "title": "JSON",
+    "image": "/images/JSON_icon_resized_250px.webp",
+    "description": "Formato de troca de dados leve e fácil de ler.",
+    "rating": 4
+  },
+  {
+    "title": "API RESTful",
+    "image": "/images/API_icon_resized_250px.webp",
+    "description": "Padrão de arquitetura para construção de APIs escaláveis.",
+    "rating": 5
+  },
+  {
+    "title": "Swagger",
+    "image": "/images/Swagger_icon_resized_250px.webp",
+    "description": "Ferramenta para documentação e teste de APIs.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub",
+    "image": "/images/GitHub_icon_resized_250px.webp",
+    "description": "Plataforma para controle de versão e colaboração.",
+    "rating": 5
+  },
+  {
+    "title": "Codespaces",
+    "image": "/images/Codespaces_icon_resized_250px.webp",
+    "description": "Ambiente de desenvolvimento na nuvem integrado com GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "GitHub Pages",
+    "image": "/images/GitHubPages_icon_resized_250px.webp",
+    "description": "Serviço de hospedagem de sites estáticos no GitHub.",
+    "rating": 4
+  },
+  {
+    "title": "React.js",
+    "image": "/images/React_icon_resized_250px.webp",
+    "description": "Biblioteca JavaScript para criação de interfaces dinâmicas.",
+    "rating": 5
+  },
+  {
+    "title": "Next.js",
+    "image": "/images/Next_icon_resized_250px.webp",
+    "description": "Framework React para desenvolvimento web moderno e performático.",
+    "rating": 5
+  },
+  {
+    "title": "Vercel",
+    "image": "/images/Vercel_icon_resized_250px.webp",
+    "description": "Plataforma de hospedagem otimizada para projetos Next.js.",
+    "rating": 4
+  }
+]
