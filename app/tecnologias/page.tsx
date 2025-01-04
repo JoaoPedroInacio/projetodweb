@@ -1,6 +1,5 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
 import tecnologias from '../data/tecnologias.json';
 import TecnologiasCard from '../components/cardTecnologias/TecnologiasCard';
 
