@@ -1,74 +1,38 @@
 [
   {
     "title": "HTML",
-    "image": "/images/HTML_icon_resized_250px.webp",
+    "image": "data:image/png;base64,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",
     "description": "A linguagem de marcação para construção de páginas web.",
     "rating": 5
   },
   {
     "title": "CSS",
-    "image": "/images/CSS_icon_resized_250px.webp",
+    "image": "data:image/png;base64,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",
     "description": "Usada para estilizar páginas web.",
-    "rating": 4
+    "rating": 5
   },
   {
     "title": "JavaScript",
-    "image": "/images/JavaScript_icon_resized_250px.webp",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-javascript-logo-icon-download-in-svg-png-gif-file-formats--html-programming-language-coding-logos-icons-1720087.png",
     "description": "A linguagem de programação para a web.",
-    "rating": 5
+    "rating": 4
   },
   {
     "title": "JSON",
-    "image": "/images/JSON_icon_resized_250px.webp",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-no-js-1-1174935.png?f=webp",
     "description": "Formato de troca de dados leve e fácil de ler.",
-    "rating": 4
-  },
-  {
-    "title": "API RESTful",
-    "image": "/images/API_icon_resized_250px.webp",
-    "description": "Padrão de arquitetura para construção de APIs escaláveis.",
-    "rating": 5
-  },
-  {
-    "title": "Swagger",
-    "image": "/images/Swagger_icon_resized_250px.webp",
-    "description": "Ferramenta para documentação e teste de APIs.",
-    "rating": 4
-  },
-  {
-    "title": "GitHub",
-    "image": "/images/GitHub_icon_resized_250px.webp",
-    "description": "Plataforma para controle de versão e colaboração.",
-    "rating": 5
-  },
-  {
-    "title": "Codespaces",
-    "image": "/images/Codespaces_icon_resized_250px.webp",
-    "description": "Ambiente de desenvolvimento na nuvem integrado com GitHub.",
-    "rating": 4
-  },
-  {
-    "title": "GitHub Pages",
-    "image": "/images/GitHubPages_icon_resized_250px.webp",
-    "description": "Serviço de hospedagem de sites estáticos no GitHub.",
-    "rating": 4
+    "rating": 3
   },
   {
     "title": "React.js",
-    "image": "/images/React_icon_resized_250px.webp",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDz2cBb5uPDfo7rG0ruzs4v9j2hqI_IjG7Sw&s",
     "description": "Biblioteca JavaScript para criação de interfaces dinâmicas.",
-    "rating": 5
+    "rating": 3
   },
   {
     "title": "Next.js",
-    "image": "/images/Next_icon_resized_250px.webp",
+    "image": "https://raw.githubusercontent.com/gilbarbara/logos/main/logos/nextjs-icon.svg",
     "description": "Framework React para desenvolvimento web moderno e performático.",
-    "rating": 5
-  },
-  {
-    "title": "Vercel",
-    "image": "/images/Vercel_icon_resized_250px.webp",
-    "description": "Plataforma de hospedagem otimizada para projetos Next.js.",
-    "rating": 4
+    "rating": 3
   }
 ]

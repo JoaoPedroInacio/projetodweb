@@ -2,7 +2,7 @@ import React from 'react';
 
 interface TecnoProps {
     title: string;
-    rating: number; // Mudei para number para melhor manipulação
+    rating: string; // Mudei para number para melhor manipulação
     description: string;
     imgSrc: string;
 }

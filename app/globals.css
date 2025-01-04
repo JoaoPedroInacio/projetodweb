@@ -77,12 +77,20 @@ main {
 }
 
 /* Tipografia */
-h1, h2, p {
-  padding-left: 20px;
+h1 {
+  text-align: center; /* Centraliza o título */
+  color: #000000; /* Cor azul */
+  font-size: 2.5rem; /* Tamanho da fonte */
+  margin-bottom: 30px; /* Espaçamento inferior */
 }
 
-#botao-comprar {
-  margin-left: 20px;
+.cards-container {
+  display: grid; /* Layout em grade */
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas com tamanhos iguais */
+  gap: 20px; /* Espaçamento entre os cards */
+  justify-content: center; /* Centralizar horizontalmente */
+  margin: 20px auto; /* Espaçamento externo e centralização */
+  max-width: 1200px; /* Largura máxima do container */
 }
 
 /* Estilo para o carrinho */
